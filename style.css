@@ -1,47 +1,56 @@
-#sq1{
-        width: 150px;
-        height: 150px;
-        background: rgba(255, 255, 255, 0.0);
-        border: 30px solid rgba(58, 62, 42, 0.9);
-        position: absolute;
-        top:120px;
-        left:120px;
-}
-#sq2{
+#sq1 {
     width: 150px;
     height: 150px;
     background: rgba(255, 255, 255, 0.0);
     border: 30px solid rgba(58, 62, 42, 0.9);
     position: absolute;
-    top:20px;
-    left:300px;
+    top: 95px;
+    left: 120px;
 }
-#sq3{
+
+#sq2 {
     width: 150px;
     height: 150px;
     background: rgba(255, 255, 255, 0.0);
     border: 30px solid rgba(58, 62, 42, 0.9);
     position: absolute;
-    top:300px;
-    left:220px;
+    top: 8px;
+    left: 302px;
 }
-#sq4{
+
+#sq3 {
     width: 150px;
     height: 150px;
     background: rgba(255, 255, 255, 0.0);
     border: 30px solid rgba(58, 62, 42, 0.9);
     position: absolute;
-    top:200px;
-    left:400px;
+    top: 280px;
+    left: 220px;
 }
-#down{
-        position: relative;
-        top: 220px;
-        left: -188px;
-        
-    }
-.a{
+
+#sq4 {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.0);
+    border: 30px solid rgba(58, 62, 42, 0.9);
+    position: absolute;
+    top: 190px;
+    left: 400px;
+}
+
+#up {
+    position: absolute;
+    left: 300px !important;
+}
+
+#down {
+    transform: rotate(90deg);
+    transform: scaleX(-1);
+    position: relative;
+    top: 278px;
+    left: -500px;
+}
+
+.a {
     border: 30px solid rgba(3, 49, 54, 0.9) !important;
-    position: absolute !important;
-    transform: rotate(180deg);
 }
